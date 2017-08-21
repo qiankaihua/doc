@@ -11,6 +11,7 @@ int | time_factor | not null | | 1 | real_time_limit = time_limit * time_factor
 int | memory_factor | not null | | 1 | real_memory_limit = memory_limit * memory_factor
 
 ### Initial data
+
 id | display_name | extension | time_factor | memory_factor
 ---|---|---|---|---
 1 | C | c | 1 | 1

@@ -8,6 +8,7 @@ timestamp | updated_at | not null | | |
 string | name | not null | | |
 
 ### Initial data
+
 id | name
 ---|---
 1 | Senior One

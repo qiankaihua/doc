@@ -10,6 +10,7 @@ string | en | not null | | |
 string | color | not null | | |
 
 ### Initial data
+
 id | alias | en | color
 ---|---|---|---
 1 | Pending | Pending | #9e9e9e
