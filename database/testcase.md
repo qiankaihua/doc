@@ -1,3 +1,5 @@
+[<< RETURN](..)
+
 # testcase
 
 TYPE | NAME | NULLABLE | DEFAULT | REFERENCE | COMMENT

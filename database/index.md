@@ -4,6 +4,7 @@
 
 ## Catalog
 + [x] [user](user.md)
++ [x] [role](role.md)
 + [x] [grade](grade.md)
 + [x] [department](department.md)
 + [x] [api_token](api_token.md)

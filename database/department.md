@@ -1,3 +1,5 @@
+[<< RETURN](..)
+
 # department
 
 TYPE | NAME | NULLABLE | DEFAULT | REFERENCE | COMMENT

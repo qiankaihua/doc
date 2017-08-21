@@ -1,3 +1,5 @@
+[<< RETURN](..)
+
 # diff_info
 
 TYPE | NAME | NULLABLE | DEFAULT | REFERENCE | COMMENT

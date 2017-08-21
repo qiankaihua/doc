@@ -1,3 +1,5 @@
+[<< RETURN](..)
+
 # api_token
 
 TYPE | NAME | NULLABLE | DEFAULT | REFERENCE | COMMENT

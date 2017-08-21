@@ -1,3 +1,5 @@
+[<< RETURN](..)
+
 # code
 
 TYPE | NAME | NULLABLE | DEFAULT | REFERENCE | COMMENT

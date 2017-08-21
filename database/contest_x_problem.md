@@ -1,3 +1,5 @@
+[<< RETURN](..)
+
 # contest_x_problem
 
 TYPE | NAME | NULLABLE | DEFAULT | REFERENCE | COMMENT

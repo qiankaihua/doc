@@ -1,3 +1,5 @@
+[<< RETURN](..)
+
 # record
 
 TYPE | NAME | NULLABLE | DEFAULT | REFERENCE | COMMENT

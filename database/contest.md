@@ -1,3 +1,5 @@
+[<< RETURN](..)
+
 # contest
 
 TYPE | NAME | NULLABLE | DEFAULT | REFERENCE | COMMENT

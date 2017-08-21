@@ -1,3 +1,5 @@
+[<< RETURN](..)
+
 # judge_result
 
 TYPE | NAME | NULLABLE | DEFAULT | REFERENCE | COMMENT
