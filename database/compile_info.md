@@ -1,4 +1,4 @@
-[<< RETURN](..)
+[<< RETURN](.)
 
 # compile_info
 

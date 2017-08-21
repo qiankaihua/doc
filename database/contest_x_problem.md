@@ -1,4 +1,4 @@
-[<< RETURN](..)
+[<< RETURN](.)
 
 # contest_x_problem
 

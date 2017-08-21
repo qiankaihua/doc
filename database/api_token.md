@@ -1,4 +1,4 @@
-[<< RETURN](..)
+[<< RETURN](.)
 
 # api_token
 

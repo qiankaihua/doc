@@ -1,4 +1,4 @@
-[<< RETURN](..)
+[<< RETURN](.)
 
 # judge_result
 

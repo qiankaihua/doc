@@ -1,4 +1,4 @@
-[<< RETURN](..)
+[<< RETURN](.)
 
 # diff_info
 
