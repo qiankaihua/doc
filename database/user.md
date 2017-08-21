@@ -9,7 +9,7 @@ timestamp | created_at | not null | | |
 timestamp | updated_at | not null | | |
 string | username | not null | | | UNIQUE
 string | password | not null | | |
-int | role_id | not null | 3 | |
+int | role_id | not null | 3 | role.id |
 string | email | not null | | | UNIQUE
 string | school | null | | |
 int | department_id | null | 1 | department.id |
