@@ -12,9 +12,9 @@ string | password | not null | | |
 int | role_id | not null | 3 | role.id |
 string | email | not null | | | UNIQUE
 string | school | null | | |
-int | department_id | null | 1 | department.id |
-int | nickname | null | | |
-int | realname | null | | |
+int | department_id | not null | 1 | department.id |
+string | nickname | null | | |
+string | realname | null | | |
 text | motto | null | | |
-int | grade_id | null | 4 | grade.id |
+int | grade_id | not null | 4 | grade.id |
 bool | gender | not null | false | | 0(false) for male, 1(true) for female
