@@ -1,7 +1,12 @@
 swagger: 2.0
 
 info:
-  description: api documentations for cdoj v3
+  description: >
+    api documentations for cdoj v3
+
+    You may need to disable cors restrictions of your browser if you want to try or test api in this page
+
+    [cors-toggle extension for chrome](https://chrome.google.com/webstore/detail/cors-toggle/omcncfnpmcabckcddookmnajignpffnh?hl=en-US)
   version: 3.0.0
   title: Api doc for cdoj v3
 
