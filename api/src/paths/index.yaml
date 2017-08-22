@@ -1,9 +1,9 @@
 /auth:
-  $ref: ./auth/
+  $ref: ./auth/index.yaml
 /auth/login:
-  $ref: ./auth/login/
+  $ref: ./auth/login/index.yaml
 /auth/register:
-  $ref: ./auth/register/
+  $ref: ./auth/register/index.yaml
 
 #/user:
 #  $ref: ./user/

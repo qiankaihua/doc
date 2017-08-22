@@ -11,10 +11,10 @@ schemes:
 - http
 
 tags:
-  $ref: ./src/tags/
+  $ref: ./src/tags/index.yaml
 
 paths:
-  $ref: ./src/paths/
+  $ref: ./src/paths/index.yaml
 
 securityDefinitions:
   apiToken:
