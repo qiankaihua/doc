@@ -1,0 +1,26 @@
+swagger: 2.0
+
+info:
+  description: api documentations for cdoj v3
+  version: 3.0.0
+  title: Api doc for cdoj v3
+
+host: cdoj.p.qkteam.com
+basePath: /api
+schemes:
+- http
+
+tags:
+  $ref: ./src/tags/
+
+paths:
+  $ref: ./src/paths/
+
+securityDefinitions:
+  apiToken:
+    type: apiKey
+    name: Api-Token
+    in: header
+
+#definitions:
+#  $ref: ./src/definitions/

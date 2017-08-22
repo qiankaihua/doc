@@ -1,0 +1,34 @@
+tags:
+- auth
+summary: Get user's api token
+description:
+parameters:
+  - in: body
+    name: user
+    schema:
+      type: object
+      properties:
+        username:
+          type: string
+          format: "[a-zA-Z][a-zA-Z0-9_]{4,19}"
+        password:
+          type: string
+          format: sha1
+      required:
+        - username
+        - password
+      example:
+        username: admin
+        password: d033e22ae348aeb5660fc2140aec35850c4da997
+responses:
+  200:
+    description: authorized successfully
+    schema:
+      type: object
+      properties:
+        token:
+          type: string
+      example:
+        token: fffd50ff-9d08-4ee5-abd3-a7fbabc78498
+  403:
+    description: wrong password

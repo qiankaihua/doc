@@ -1,0 +1,14 @@
+type: object
+properties:
+  id:
+    type: integer
+    example: 4
+#  created_at:
+#    type: timestamp
+#    example: 1503416944471
+#  updated_at:
+#    type: timestamp
+#    example: 1503416944471
+  name:
+    type: string
+    example: Freshman

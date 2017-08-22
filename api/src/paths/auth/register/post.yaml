@@ -1,0 +1,30 @@
+tags:
+- auth
+summary: Register a new user
+description:
+parameters:
+  - in: body
+    name: user
+    schema:
+      type: object
+      properties:
+        username:
+          type: string
+          format: "[a-zA-Z][a-zA-Z0-9_]{4,19}"
+        password:
+          type: string
+          format: sha1
+        email:
+          type: string
+          format: email
+      required:
+        - username
+        - password
+        - email
+      example:
+        username: admin
+        password: d033e22ae348aeb5660fc2140aec35850c4da997
+        email: admin@example.com
+responses:
+  200:
+    description: register successfully

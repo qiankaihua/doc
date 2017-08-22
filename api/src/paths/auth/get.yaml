@@ -1,0 +1,13 @@
+tags:
+- auth
+summary: Get current authorized user
+description:
+security:
+  - apiToken: []
+responses:
+  200:
+    description: Logined user
+    schema:
+      $ref: /doc/api/src/definitions/user.yaml
+  401:
+    description: Not logined

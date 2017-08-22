@@ -1,0 +1,50 @@
+/auth:
+  $ref: ./auth/
+/auth/login:
+  $ref: ./auth/login/
+/auth/register:
+  $ref: ./auth/register/
+
+#/user:
+#  $ref: ./user/
+#/user/{id}:
+#  $ref: ./user/{id}/
+#/user/{id}/security:
+#  $ref: ./user/{id}/security/
+
+#/problem:
+#  $ref: ./problem/
+#/problem/{id}:
+#  $ref: ./problem/{id}/
+
+#/testdata:
+#  $ref: ./testdata/
+#/testdata/{id}:
+#  $ref: ./testdata/{id}/
+
+#/record:
+#  $ref: ./record/
+#/record/{id}:
+#  $ref: ./record/{id}/
+
+#/testcase:
+#  $ref: ./testcase/
+#/testcase/{id}:
+#  $ref: ./testcase/{id}/
+
+#/contest:
+#  $ref: ./contest/
+#/contest/{id}:
+#  $ref: ./contest/{id}/
+#/contest/{id}/problem/{order}:
+#  $ref: ./contest/{id}/problem/{order}/
+#/contest/{id}/statistics:
+#  $ref: ./contest/{id}/statistics/
+#/contest/{id}/rank:
+#  $ref: ./contest/{id}/rank/
+
+#/language:
+#  $ref: ./language/
+
+#/judge-result:
+#  $ref: ./judge-result/

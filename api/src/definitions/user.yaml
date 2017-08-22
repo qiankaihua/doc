@@ -1,0 +1,47 @@
+type: object
+properties:
+  id:
+    type: integer
+    example: 1
+  created_at:
+    type: timestamp
+    example: 1503416944471
+  updated_at:
+    type: timestamp
+    example: 1503416944471
+  username:
+    type: string
+    example: admin
+  role_id:
+    type: integer
+    example: 1
+  role:
+    $ref: ./role.yaml
+  email:
+    type: string
+    example: admin@example.com
+  school:
+    type: string
+    example: UESTC
+  department_id:
+    type: integer
+    example: 1
+  department:
+    $ref: ./department.yaml
+  nickname:
+    type: string
+    example: admin
+  realname:
+    type: string
+    example: administrator
+  motto:
+    type: string
+    example: The man is too lazy to leave anything
+  grade_id:
+    type: integer
+    example: 4
+  grade:
+    $ref: ./grade.yaml
+  gender:
+    type: boolean
+    example: false
