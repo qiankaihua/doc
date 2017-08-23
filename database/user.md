@@ -18,3 +18,11 @@ string | realname | null | | |
 text | motto | null | | |
 int | grade_id | not null | 4 | grade.id |
 bool | gender | not null | false | | 0(false) for male, 1(true) for female
+
+### Initial data
+
+id | username | password | email | role_id
+---|---|---|---|---
+1 | admin | hash(d033e22ae348aeb5660fc2140aec35850c4da997) | admin@admin.com | 1
+
+__`hash` means bcrypt functions in laravel__
