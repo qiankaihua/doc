@@ -11,12 +11,12 @@ string | title | not null | | |
 text | description | null | | |
 text | input | null | | |
 text | output | null | | |
-json | samples | null | | |
+text | samples | null | | | json数组 \[{input: '', output: ''}, ...\]
 text | hint | null | | |
 string | source | null | | |
 int | time_limit | not null | 1000 | | MS
 int | memory_limit | not null | 65536 | | KB
 int | output_limit | not null | 16384 | | KB
-bool | isSpj | not null | false | |
-bool | isVisible | not null | false | |
+bool | is_spj | not null | false | |
+bool | is_visible | not null | false | |
 int | difficulty | null | | | 1 ~ 5; 0 and null for not certain
